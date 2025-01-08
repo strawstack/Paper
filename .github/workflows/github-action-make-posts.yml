@@ -8,7 +8,10 @@ jobs:
       - uses: actions/github-script@v7
         with:
           script: |
-            import { make } from './make.js';
+          const { default: printStuff } = await import('${{ github.workspace }}/src/print-stuff.js')
+
+            await printStuff()
+            import { make } from '${{ github.workspace }}/make.js';
             make();
       - name: Commit changes
         run: |

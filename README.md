@@ -1,2 +1,7 @@
-# module_test
-Can a JS module be imported from another website or is that cross site scripting
+# Blog
+
+A blog built by a github action.
+
+# Resources
+
+https://github.com/actions/github-script

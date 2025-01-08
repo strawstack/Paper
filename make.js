@@ -5,9 +5,10 @@ module.exports = GITHUB_WORKSPACE => {
   console.log(`${GITHUB_WORKSPACE}/posts`);
   
   const posts = [];
-  fs.readdir(`${GITHUB_WORKSPACE}/posts`, (err, files) => {
-    console.log(files);
-    files.forEach(file => posts.push(file));
+  fs.readdir(`${GITHUB_WORKSPACE}/posts`, (_, files) => {
+    for (let file of files) {
+      posts.push(file);
+    }
   });
 
   console.log(posts)

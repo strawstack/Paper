@@ -1,4 +1,4 @@
-# Blog
+# Paper
 
 A blog built by a github action.
 

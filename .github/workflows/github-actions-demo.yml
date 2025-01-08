@@ -1,4 +1,4 @@
-name: Build Post.js
+name: Create posts.js
 on: push
 jobs:
   echo-input:
@@ -9,4 +9,14 @@ jobs:
         with:
           script: |
             const makePosts = require('./makePosts.js');
-            makePosts({ github, context });
+            makePosts();
+      - name: Commit changes
+        run: |
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "GitHub Actions"
+          git add posts.js
+          git commit -m "Create posts.js"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

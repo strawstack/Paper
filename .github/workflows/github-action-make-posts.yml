@@ -9,7 +9,7 @@ jobs:
         with:
           script: |
             const make = require('./make.js');
-            make({{ $GITHUB_WORKSPACE }});
+            make(github);
       - name: Commit changes
         run: |
           git config --global user.email "no-reply@github.com"

@@ -1,3 +1,5 @@
+import { writeFileSync } from 'fs'
+
 module.exports = ({ github, context }) => {
-  console.log(github, context);
+  writeFileSync("posts2.js", "Post list data placeholder");
 }

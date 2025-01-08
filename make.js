@@ -4,9 +4,7 @@ module.exports = (path) => {
   
   const posts = [];
   fs.readdir(`${path}/posts`, (err, files) => {
-    files.forEach(file => {
-      posts.push(file);
-    });
+    console.log(files);
   });
   
   fs.writeFileSync("posts.js", 

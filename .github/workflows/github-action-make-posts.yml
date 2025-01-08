@@ -8,8 +8,8 @@ jobs:
       - uses: actions/github-script@v7
         with:
           script: |
-            import { make } from '${{ github.workspace }}/make.js';
-            make();
+            import { make } from await import('${{ github.workspace }}/make.js');
+            await make();
       - name: Commit changes
         run: |
           git config --global user.email "no-reply@github.com"

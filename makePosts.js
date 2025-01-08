@@ -1,5 +1,5 @@
 const fs = require('fs');
 
-module.exports = ({ github, context }) => {
+module.exports = () => {
   fs.writeFileSync("posts2.js", "Post list data placeholder");
 }

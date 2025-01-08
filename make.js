@@ -5,15 +5,9 @@ module.exports = GITHUB_WORKSPACE => {
   console.log(`${GITHUB_WORKSPACE}/posts`);
   
   const posts = [];
-  fs.readdir(`${GITHUB_WORKSPACE}/posts`, (_, files) => {
-    console.log(files);
-    for (let file of files) {
-      console.log(file);
-      posts.push(file);
-    }
+  fs.readdirSync(`${GITHUB_WORKSPACE}/posts`, (_, files) => {
+    files.forEach(file => posts.push(file));
   });
-
-  console.log(posts)
   
   fs.writeFileSync("posts.js", 
     `export function posts() {

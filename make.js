@@ -1,12 +1,10 @@
 const fs = require('fs')
 
 module.exports = GITHUB_WORKSPACE => {
-
-  console.log(GITHUB_WORKSPACE);
   
   const posts = [];
-  fs.readdir(GITHUB_WORKSPACE, (err, files) => {
-    console.log(files);
+  fs.readdir(`${GITHUB_WORKSPACE}/posts`, (err, files) => {
+    files.forEach(file => posts.push(file));
   });
   
   fs.writeFileSync("posts.js", 

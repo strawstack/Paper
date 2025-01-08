@@ -1,3 +1,3 @@
-export default function makePosts({ github, context }) {
+module.exports = ({ github, context }) => {
   console.log(github, context);
 }

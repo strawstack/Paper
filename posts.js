@@ -1,3 +1,5 @@
 export function posts() {
-      return [];
+      return [
+  "post_title_slug.html"
+];
     }

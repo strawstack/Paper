@@ -3,7 +3,7 @@ const fs = require('fs')
 module.exports = () => {
   
   const posts = [];
-  fs.readdir("./posts", (err, files) => {
+  fs.readdir(".", (err, files) => {
     files.forEach(file => {
       posts.push(file);
     });

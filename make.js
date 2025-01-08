@@ -1,22 +1,17 @@
 const fs = require('fs')
 
 module.exports = () => {
+  
+  const posts = [];
+  fs.readdir(testFolder, (err, files) => {
+    files.forEach(file => {
+      posts.push(file);
+    });
+  });
+  
   fs.writeFileSync("posts.js", 
     `export function posts() {
-      return [
-        {
-          type: 'file',
-          data: 5
-        },
-        {
-          type: 'dir',
-          data: 6
-        },
-        {
-          type: 'file',
-          data: 7
-        }
-      ];
+      return ${JSON.stringify(posts, null, 2)};
     }`
   );
 }

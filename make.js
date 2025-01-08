@@ -8,6 +8,7 @@ module.exports = GITHUB_WORKSPACE => {
   files.forEach(file => posts.push(file));
 
   console.log(files)
+  console.log(posts)
   
   fs.writeFileSync("posts.js", 
     `export function posts() {

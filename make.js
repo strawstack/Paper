@@ -1,7 +1,7 @@
-import { writeFileSync } from 'fs'
+const fs = require('fs')
 
-export function make() {
-  writeFileSync("posts.js", 
+module.exports = () => {
+  fs.writeFileSync("posts.js", 
     `export function posts() {
       return [
         {

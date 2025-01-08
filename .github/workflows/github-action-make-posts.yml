@@ -9,7 +9,7 @@ jobs:
         with:
           script: |
             const make = require('./make.js');
-            make();
+            make(github.workspace);
       - name: Commit changes
         run: |
           git config --global user.email "no-reply@github.com"

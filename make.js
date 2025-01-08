@@ -1,9 +1,11 @@
 const fs = require('fs')
 
-module.exports = (path) => {
+module.exports = GITHUB_WORKSPACE => {
+
+  console.log(GITHUB_WORKSPACE);
   
   const posts = [];
-  fs.readdir(`${path}/posts`, (err, files) => {
+  fs.readdir(GITHUB_WORKSPACE, (err, files) => {
     console.log(files);
   });
   

@@ -1,8 +1,6 @@
 const fs = require('fs')
 
 module.exports = GITHUB_WORKSPACE => {
-
-  console.log(`${GITHUB_WORKSPACE}/posts`);
   
   const posts = [];
   fs.readdirSync(`${GITHUB_WORKSPACE}/posts`, (_, files) => {

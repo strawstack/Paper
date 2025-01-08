@@ -1,9 +1,9 @@
 const fs = require('fs')
 
-module.exports = () => {
+module.exports = (path) => {
   
   const posts = [];
-  fs.readdir("posts", (err, files) => {
+  fs.readdir(`${path}/posts`, (err, files) => {
     files.forEach(file => {
       posts.push(file);
     });

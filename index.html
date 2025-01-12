@@ -9,7 +9,11 @@
   <body>
     <script type="module">
       import { posts } from './paper.js';
-      console.log(posts());
+
+      const contents = posts.map(title => {
+        return `<li><a href="./posts/${title}">${title}</a></li>`;
+      }).join("");
+      document.body.innerHTML = `<ul>${contents}</ul>`;
     </script>
   </body>
 </html>

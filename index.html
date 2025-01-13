@@ -16,6 +16,7 @@
       import { posts } from './paper.js';
       const create = n => document.createElement(n);
 
+      //
       const listItems = posts.map(({ fileName, title, date, summary }) => {
         const li = create("li");
         const a = create("a");

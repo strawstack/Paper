@@ -2,6 +2,10 @@
 
 A blog built by a github action.
 
+# Todo
+
+- [ ] Split out frontmatter from markdown in posts before passing to showdown
+
 # Resources
 
 https://github.com/actions/github-script

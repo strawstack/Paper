@@ -7,13 +7,27 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <p>That user experience you're having right now... I designed it</p>
+
+    <h1>Posts</h1>
+
     <script type="module">
       import { posts } from './paper.js';
+      const create = n => document.createElement(n);
 
-      const contents = posts.map(title => {
-        return `<li><a href="./posts/${title}">${title}</a></li>`;
-      }).join("");
-      document.body.innerHTML = `<ul>${contents}</ul>`;
+      const listItems = posts.map(({ title, date, summary }) => {
+        const li = create("li");
+        const a = create("a");
+        a.setAttribute("href", `./posts/${title}`);
+        a.innerHTML = `${title}, ${date}, ${summary}`;
+        li.appendChild(a)
+        return li;
+      });
+      
+      const ul = document.createElement("ul");
+      listItems.forEach(li => ul.appendChild(li));
+      document.body.appendChild(ul);
+
     </script>
   </body>
 </html>

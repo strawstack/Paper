@@ -7,7 +7,7 @@ function parseMatter(frontmatterLines) {
     const map = {};
     frontmatterLines.forEach(line => {
       const split = line.split(":");
-      map[split[0]] = split[1];
+      map[split[0]] = split[1].trim();
     })
     return map;
   }

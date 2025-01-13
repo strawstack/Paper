@@ -1,4 +1,11 @@
 export const posts = [
-  "post_title_slug.html",
-  "post_title_slug_two.html"
+  {
+    "title": " Title",
+    "date": " 10 Jan 2025"
+  },
+  {
+    "title": " Title Two",
+    "date": " 11 Jan 2025",
+    "summary": " personal philosophy"
+  }
 ];

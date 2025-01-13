@@ -1,4 +1,4 @@
-import { posts as postData } from './_posts.js';
+import { posts as postData } from './posts.js';
 import { showdown } from './lib/showdown.js';
 
 export const posts = postData;

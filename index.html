@@ -15,10 +15,10 @@
       import { posts } from './paper.js';
       const create = n => document.createElement(n);
 
-      const listItems = posts.map(({ title, date, summary }) => {
+      const listItems = posts.map(({ fileName, title, date, summary }) => {
         const li = create("li");
         const a = create("a");
-        a.setAttribute("href", `./posts/${title}`);
+        a.setAttribute("href", `./posts/${fileName}`);
         a.innerHTML = `${title}, ${date}, ${summary}`;
         li.appendChild(a)
         return li;

@@ -14,8 +14,8 @@ jobs:
         run: |
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
-          git add _posts.js
-          git commit -m "Create _posts.js"
+          git add posts.js
+          git commit -m "Create posts.js"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push
         env:

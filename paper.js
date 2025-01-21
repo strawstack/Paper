@@ -18,7 +18,7 @@ export function html(markdown) {
 
   // Split frontmatter and markdown content
   const split = markdown.split("+++");
-  const frontmatter = parseMatter(split[1].split("\n"));
+  const frontmatter = parseMatter(split[1].split("\n").filter(line => line.includes(":")));
   const content = split[2];
 
   // Add back link to body

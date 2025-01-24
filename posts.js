@@ -21,7 +21,7 @@ export const posts = [
     "fileName": "repetition.html",
     "title": " Repetition",
     "date": " 23 Jan 2025",
-    "summary": " repeating though and repeating races"
+    "summary": " repeating thought and repeating races"
   },
   {
     "fileName": "trade.html",

@@ -12,6 +12,12 @@ export const posts = [
     "summary": " personal philosophy"
   },
   {
+    "fileName": "the_repetition_question.html",
+    "title": " The Repetition Question",
+    "date": " 23 Jan 2025",
+    "summary": " repeating though and repeating races"
+  },
+  {
     "fileName": "trade_connection.html",
     "title": " Trade Connection",
     "date": " 23 Jan 2025",

@@ -18,7 +18,7 @@ export const posts = [
     "summary": " more open source apps"
   },
   {
-    "fileName": "personal_philosophy.html",
+    "fileName": "philosophy.html",
     "title": " Personal Philosophy",
     "date": " 11 Jan 2025",
     "summary": " existing for one time step and everything after "

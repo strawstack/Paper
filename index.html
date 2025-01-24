@@ -21,7 +21,7 @@
         const li = create("li");
         const a = create("a");
         a.setAttribute("href", `./posts/${fileName}`);
-        a.innerHTML = `${title}, ${date}, ${summary}`;
+        a.innerHTML = `${date} - ${title}: ${summary}`;
         li.appendChild(a)
         return li;
       });

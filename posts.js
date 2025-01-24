@@ -1,5 +1,11 @@
 export const posts = [
   {
+    "fileName": "centralization.html",
+    "title": " Centralization",
+    "date": " 23 Jan 2025",
+    "summary": " the problem with capitolism and socialism is centralization"
+  },
+  {
     "fileName": "open_apps.html",
     "title": " Open Apps",
     "date": " 20 Jan 2025",

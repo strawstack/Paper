@@ -18,8 +18,8 @@ export const posts = [
     "summary": " personal philosophy"
   },
   {
-    "fileName": "the_repetition_question.html",
-    "title": " The Repetition Question",
+    "fileName": "repetition.html",
+    "title": " Repetition",
     "date": " 23 Jan 2025",
     "summary": " repeating though and repeating races"
   },

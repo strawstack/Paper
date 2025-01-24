@@ -24,8 +24,8 @@ export const posts = [
     "summary": " repeating though and repeating races"
   },
   {
-    "fileName": "trade_connection.html",
-    "title": " Trade Connection",
+    "fileName": "trade.html",
+    "title": " Trade",
     "date": " 23 Jan 2025",
     "summary": " global trade creates connection"
   }

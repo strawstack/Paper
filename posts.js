@@ -12,7 +12,7 @@ export const posts = [
     "summary": " what isn't measured isn't known"
   },
   {
-    "fileName": "open_source_apps.html",
+    "fileName": "open_apps.html",
     "title": " Open Source Apps",
     "date": " 20 Jan 2025",
     "summary": " more open source apps"

@@ -10,5 +10,11 @@ export const posts = [
     "title": " Title Two",
     "date": " 11 Jan 2025",
     "summary": " personal philosophy"
+  },
+  {
+    "fileName": "trade_connection.html",
+    "title": " Trade Connection",
+    "date": " 23 Jan 2025",
+    "summary": " global trade creates connection"
   }
 ];

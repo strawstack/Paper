@@ -6,6 +6,12 @@ export const posts = [
     "summary": " the problem with capitolism and socialism is centralization"
   },
   {
+    "fileName": "filesystems.html",
+    "title": " Filesystems we have and the filesystems we use",
+    "date": " 24 Jan 2025",
+    "summary": " the filesystems we have, and the filesystems we use"
+  },
+  {
     "fileName": "granularity.html",
     "title": " Data Granularity",
     "date": " 24 Jan 2025",

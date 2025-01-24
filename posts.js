@@ -12,7 +12,7 @@ export const posts = [
     "summary": " what isn't measured isn't known"
   },
   {
-    "fileName": "filesystems.html",
+    "fileName": "files.html",
     "title": " Filesystems we have and the filesystems we use",
     "date": " 24 Jan 2025",
     "summary": " the filesystems we have, and the filesystems we use"

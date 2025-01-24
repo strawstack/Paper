@@ -1,5 +1,11 @@
 export const posts = [
   {
+    "fileName": "apps.html",
+    "title": " Open Source Apps",
+    "date": " 20 Jan 2025",
+    "summary": " more open source apps"
+  },
+  {
     "fileName": "centralization.html",
     "title": " Centralization",
     "date": " 23 Jan 2025",
@@ -16,12 +22,6 @@ export const posts = [
     "title": " Filesystems we have and the filesystems we use",
     "date": " 24 Jan 2025",
     "summary": " the filesystems we have, and the filesystems we use"
-  },
-  {
-    "fileName": "open_apps.html",
-    "title": " Open Source Apps",
-    "date": " 20 Jan 2025",
-    "summary": " more open source apps"
   },
   {
     "fileName": "philosophy.html",

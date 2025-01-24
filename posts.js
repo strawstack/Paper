@@ -28,5 +28,11 @@ export const posts = [
     "title": " Trade",
     "date": " 23 Jan 2025",
     "summary": " global trade creates connection"
+  },
+  {
+    "fileName": "two_implies_three.html",
+    "title": " Two Implies Three",
+    "date": " 11 Jan 2025",
+    "summary": " either or both, and the space inbetween"
   }
 ];

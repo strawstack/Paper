@@ -12,10 +12,10 @@ export const posts = [
     "summary": " more open source apps"
   },
   {
-    "fileName": "post_title_slug_two.html",
-    "title": " Title Two",
+    "fileName": "personal_philosophy.html",
+    "title": " Personal Philosophy",
     "date": " 11 Jan 2025",
-    "summary": " personal philosophy"
+    "summary": " existing for one time step and everything after "
   },
   {
     "fileName": "repetition.html",

@@ -6,8 +6,8 @@ export const posts = [
     "summary": " the problem with capitolism and socialism is centralization"
   },
   {
-    "fileName": "open_apps.html",
-    "title": " Open Apps",
+    "fileName": "open_source_apps.html",
+    "title": " Open Source Apps",
     "date": " 20 Jan 2025",
     "summary": " more open source apps"
   },

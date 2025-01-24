@@ -2,7 +2,8 @@ export const posts = [
   {
     "fileName": "open_apps.html",
     "title": " Open Apps",
-    "date": " 20 Jan 2025"
+    "date": " 20 Jan 2025",
+    "summary": " more open source apps"
   },
   {
     "fileName": "post_title_slug_two.html",

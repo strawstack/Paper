@@ -1,5 +1,11 @@
 export const posts = [
   {
+    "fileName": "accountability.html",
+    "title": " Accountability",
+    "date": " 24 Jan 2025",
+    "summary": " accountability"
+  },
+  {
     "fileName": "apps.html",
     "title": " Open Source Apps",
     "date": " 20 Jan 2025",

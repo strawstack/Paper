@@ -30,6 +30,12 @@ export const posts = [
     "summary": " the filesystems we have, and the filesystems we use"
   },
   {
+    "fileName": "game_engine.html",
+    "title": " A Browser-Based Game Engine",
+    "date": " 25 Jan 2025",
+    "summary": " what would it mean to have a game engine in the browser"
+  },
+  {
     "fileName": "philosophy.html",
     "title": " Personal Philosophy",
     "date": " 11 Jan 2025",

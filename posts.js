@@ -18,8 +18,8 @@ export const posts = [
     "summary": " the problem with capitolism and socialism is centralization"
   },
   {
-    "fileName": "certianty.html",
-    "title": " Certianty about the Way Forward",
+    "fileName": "certainty.html",
+    "title": " Certainty about the Way Forward",
     "date": " 24 Jan 2025",
     "summary": " the more options we have the less certian we are about which is best"
   },

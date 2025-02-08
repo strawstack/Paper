@@ -24,6 +24,12 @@ export const posts = [
     "summary": " the more options we have the less certian we are about which is best"
   },
   {
+    "fileName": "contribution.html",
+    "title": " Contribution",
+    "date": " 08 Feb 2025",
+    "summary": " contributing to discourse"
+  },
+  {
     "fileName": "data.html",
     "title": " Data Granularity",
     "date": " 24 Jan 2025",

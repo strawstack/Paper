@@ -60,6 +60,12 @@ export const posts = [
     "summary": " repeating thought and repeating races"
   },
   {
+    "fileName": "things.html",
+    "title": " Things",
+    "date": " 08 Feb 2025",
+    "summary": " things"
+  },
+  {
     "fileName": "three.html",
     "title": " Two Implies Three",
     "date": " 11 Jan 2025",

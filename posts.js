@@ -6,6 +6,12 @@ export const posts = [
     "summary": " accountability"
   },
   {
+    "fileName": "actualization.html",
+    "title": " Self-Actualization",
+    "date": " 24 Jan 2025",
+    "summary": " apparently history's most important lesson"
+  },
+  {
     "fileName": "apps.html",
     "title": " Open Source Apps",
     "date": " 20 Jan 2025",

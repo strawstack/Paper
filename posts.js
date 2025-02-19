@@ -48,6 +48,12 @@ export const posts = [
     "summary": " the filesystems we have, and the filesystems we use"
   },
   {
+    "fileName": "gamejam.html",
+    "title": " Game Jams",
+    "date": " 18 Feb 2025",
+    "summary": " game jams for good and expression"
+  },
+  {
     "fileName": "games.html",
     "title": " A Browser-Based Game Engine",
     "date": " 25 Jan 2025",

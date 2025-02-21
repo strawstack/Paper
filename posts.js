@@ -88,5 +88,11 @@ export const posts = [
     "title": " Trade",
     "date": " 23 Jan 2025",
     "summary": " global trade creates connection"
+  },
+  {
+    "fileName": "web.html",
+    "title": " Web3",
+    "date": " 20 Feb 2025",
+    "summary": " the future of the web and everything is money"
   }
 ];
